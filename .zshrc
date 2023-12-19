@@ -114,6 +114,7 @@ alias ll="exa -al --icons"
 alias l="exa --icons"
 alias llg="exa -al --icons --git-ignore"
 alias icat="kitten icat"
+alias logout="hyprctl dispatch exit"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
