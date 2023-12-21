@@ -24,10 +24,10 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    width = 400
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = 200
 
     # Position the notification in the top right corner
     origin = top-right
@@ -214,7 +214,7 @@
     min_icon_size = 32
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 128
+    max_icon_size = 64
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
     icon_path = /usr/share/icons/Papirus-Dark/16x16/status/:/usr/share/icons/Papirus-Dark/16x16/devices/:/usr/share/icons/Papirus-Dark/16x16/actions/:/usr/share/icons/Papirus-Dark/16x16/apps/:/usr/share/icons/Papirus-Dark/16x16/emblems/:/usr/share/icons/Papirus-Dark/16x16/mimetypes/:/usr/share/icons/Papirus-Dark/16x16/panel/:/usr/share/icons/Papirus-Dark/16x16/places/
@@ -296,7 +296,7 @@
     # These values can be strung together for each mouse event, and
     # will be executed in sequence.
     mouse_left_click = close_current
-    mouse_middle_click = do_action, close_current
+    mouse_middle_click = context,close_current
     mouse_right_click = close_all
 
 # Experimental features that may or may not work correctly. Do not expect them
@@ -317,14 +317,14 @@
     foreground = "#C6D0F5"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = bell
 
 [urgency_normal]
     background = "#303446ee"
     foreground = "#C6D0F5"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = help_about
 
 [urgency_critical]
     background = "#303446"
@@ -332,17 +332,43 @@
     frame_color = "#EF9F76"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = redeyes
 
-[Firefox]
-  appname = Firefox
-  new_icon = firefox
+[on_mouse_hover]
+    event = on_mouse_enter
+    timeout = 0
 
-[Spotify]
-  appname = Spotify
-  background = "#a6d18999"
-  frame_color = "#81c8be99"
-  timeout = 3
+[on_mouse_leave]
+    event = on_mouse_leave
+    timeout = 3
+
+[firefox]
+    appname = Firefox
+    new_icon = firefox
+
+[spotify]
+    appname = Spotify
+    background = "##99d1db99"
+    frame_color = "#81c8be99"
+    timeout = 3
+
+[Spotify_on_mouse_hover]
+    event = on_mouse_enter
+    background = "#99d1db"
+    frame_color = "#81c8be"
+
+[Spotify_on_mouse_leave]
+    event = on_mouse_leave
+    background = "#99d1db99"
+    frame_color = "#81c8be99"
+
+[discord]
+    appname = Discord
+    new_icon = discord
+
+[slack]
+    appname = Slack
+    new_icon = slack
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
@@ -413,11 +439,13 @@
 #        If the notification is already drawn, it won't get undrawn.
 # pushback: same as delay, but when switching into fullscreen, the notification will get
 #           withdrawn from screen again and will get delayed like a new notification
-#[fullscreen_delay_everything]
-#    fullscreen = delay
-#[fullscreen_show_critical]
-#    msg_urgency = critical
-#    fullscreen = show
+#
+[fullscreen_delay_everything]
+   fullscreen = delay
+
+[fullscreen_show_critical]
+   msg_urgency = critical
+   fullscreen = show
 
 #[espeak]
 #    summary = "*"
