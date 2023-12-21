@@ -313,14 +313,14 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#303446ee"
+    background = "#303446"
     foreground = "#C6D0F5"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     default_icon = bell
 
 [urgency_normal]
-    background = "#303446ee"
+    background = "#303446"
     foreground = "#C6D0F5"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
@@ -334,33 +334,9 @@
     # Icon for notifications with critical urgency, uncomment to enable
     default_icon = redeyes
 
-[on_mouse_hover]
-    event = on_mouse_enter
-    timeout = 0
-
-[on_mouse_leave]
-    event = on_mouse_leave
-    timeout = 3
-
 [firefox]
     appname = Firefox
     new_icon = firefox
-
-[spotify]
-    appname = Spotify
-    background = "##99d1db99"
-    frame_color = "#81c8be99"
-    timeout = 3
-
-[Spotify_on_mouse_hover]
-    event = on_mouse_enter
-    background = "#99d1db"
-    frame_color = "#81c8be"
-
-[Spotify_on_mouse_leave]
-    event = on_mouse_leave
-    background = "#99d1db99"
-    frame_color = "#81c8be99"
 
 [discord]
     appname = Discord
