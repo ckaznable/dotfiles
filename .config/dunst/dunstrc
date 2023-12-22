@@ -224,6 +224,7 @@
     # Should a notification popped up from history be sticky or timeout
     # as if it would normally do.
     sticky_history = yes
+    timeout = 0
 
     # Maximum amount of notifications kept in history
     history_length = 20
@@ -315,23 +316,17 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#303446"
     foreground = "#C6D0F5"
-    timeout = 10
-    # Icon for notifications with low urgency, uncomment to enable
     default_icon = bell
 
 [urgency_normal]
     background = "#303446"
     foreground = "#C6D0F5"
-    timeout = 10
-    # Icon for notifications with normal urgency, uncomment to enable
     default_icon = help_about
 
 [urgency_critical]
     background = "#303446"
     foreground = "#C6D0F5"
     frame_color = "#EF9F76"
-    timeout = 0
-    # Icon for notifications with critical urgency, uncomment to enable
     default_icon = redeyes
 
 [firefox]
