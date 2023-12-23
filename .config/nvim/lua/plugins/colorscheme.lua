@@ -8,6 +8,10 @@ return {
     priority = 1000,
     config = function()
       require("catppuccin").setup({
+          kitty = true,
+          transparent_background = false,
+          term_colors = true,
+          flavour = "frappe",
           integrations = {
               cmp = true,
               dashboard = true,
