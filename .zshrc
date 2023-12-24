@@ -110,9 +110,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="exa -al --icons"
-alias l="exa --icons"
-alias llg="exa -al --icons --git-ignore"
+alias ll="eza -al --icons"
+alias l="eza --icons"
+alias llg="eza -al --icons --git-ignore"
 alias icat="kitten icat"
 alias logout="hyprctl dispatch exit"
 
