@@ -1,5 +1,6 @@
 return {
   "wakatime/vim-wakatime",
+  "ap/vim-css-color",
   {
     "mg979/vim-visual-multi",
     init = function()
