@@ -1,7 +1,8 @@
 return {
-  -- add gruvbox
-  { "rebelot/kanagawa.nvim" },
-  { "olimorris/onedarkpro.nvim" },
+  {
+    "rebelot/kanagawa.nvim",
+    priority = 1000,
+  },
   {
     "catppuccin/nvim",
     name = "catppuccin",
