@@ -95,7 +95,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#8CAAEEAA"
+    frame_color = "#E4E7F7AA"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -312,21 +312,21 @@
 
 
 [urgency_low]
-    # IMPORTANT: colors have to be defined in quotation marks.
-    # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#303446"
-    foreground = "#C6D0F5"
+    background = "#2D2B38EE"
+    foreground = "#FAF7F1"
+    frame_color = "#E4E7F7"
     default_icon = bell
 
 [urgency_normal]
-    background = "#303446"
-    foreground = "#C6D0F5"
+    background = "#2D2B38EE"
+    foreground = "#FAF7F1"
+    frame_color = "#F4E4AA"
     default_icon = help_about
 
 [urgency_critical]
-    background = "#303446"
-    foreground = "#C6D0F5"
-    frame_color = "#EF9F76"
+    background = "#2D2B38EE"
+    foreground = "#FAF7F1"
+    frame_color = "#D67262"
     default_icon = redeyes
 
 [firefox]
@@ -344,6 +344,7 @@
 [spotify]
     appname = Spotify
     timeout = 3
+    frame_color = "#CCEFBC"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
