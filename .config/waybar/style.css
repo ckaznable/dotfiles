@@ -56,7 +56,6 @@ window#waybar {
 #idle_inhibitor,
 #window,
 #custom-power,
-#workspaces,
 #mpris,
 #submap,
 #custom-media,
@@ -160,7 +159,7 @@ window#waybar.empty #window {
 }
 
 #network {
-  color: #e4e7f7;
+  color: #a6cafa;
 }
 
 #network.disconnected {
@@ -202,7 +201,7 @@ window#waybar.empty #window {
 
 #workspaces {
     font-size: 14px;
-    background-color: #e4e7f7;
+    background-color: #a6cafa;
 }
 
 #workspaces * {
@@ -212,13 +211,14 @@ window#waybar.empty #window {
 
 #workspaces button {
     border-bottom: 3px solid transparent;
-    margin: 0.1rem;
+    margin: 0;
+    padding: 0 0.5rem;
 }
 
 #workspaces button.active {
+    background-color: #d67262;
     border-bottom: 3px solid #d67262;
-    margin-bottom: 1px;
-    padding-left: 0;
+    color: #d67262;
 }
 
 #custom-power {
