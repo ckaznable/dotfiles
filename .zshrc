@@ -115,6 +115,7 @@ alias l="eza --icons"
 alias llg="eza -al --icons --git-ignore"
 alias icat="kitten icat"
 alias logout="hyprctl dispatch exit"
+alias ncmpcpp="ncmpcpp -b ~/dotfiles/.config/ncmpcpp/bindings"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

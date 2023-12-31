@@ -9,7 +9,7 @@ filebrowser.coverart_files cover.jpg;folder.jpg;front.jpg
 filebrowser.coverart_size 24
 filebrowser.defaultpath /$HOME/Music
 filebrowser.enabled 1
-filebrowser.expanded_rows 
+filebrowser.expanded_rows file:///home/ckaznable/Music/music
 filebrowser.fgcolor 
 filebrowser.fgcolor_selected 
 filebrowser.filter 
@@ -139,7 +139,7 @@ playback.volume 0.0000000
 playback.volume.normalized 1.0000000
 playlist.current 0
 playlist.cursor.0 14
-playlist.scroll.0 -14
+playlist.scroll.0 318
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Default
 prefwin.geometry.h 612
