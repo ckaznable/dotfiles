@@ -2,7 +2,7 @@
   "layer": "top", // Waybar at top layer
   "height": 30, // Waybar height (to be removed for auto height)
   "spacing": 0, // Gaps between modules (4px),
-  "margin-bottom": 5,
+  "margin-bottom": 0,
 
   // Choose the order of the modules
   "modules-left": ["clock", "tray", "hyprland/submap", "hyprland/workspaces", "hyprland/window"],

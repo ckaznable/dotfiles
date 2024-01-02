@@ -36,7 +36,7 @@
 
 /* The whole bar */
 window#waybar {
-    background-color: rgba(43, 41, 55, 0);
+    background-color: rgba(43, 41, 55, 0.8);
     font-size: 14px;
 }
 
@@ -66,10 +66,10 @@ window#waybar {
 #mpris,
 .modules-left,
 .modules-right {
-    background-color: rgba(43, 41, 55, 0.8);
     border-radius: 4px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    background-color: rgba(43, 41, 55, 0);
 }
 
 .modules-left {
