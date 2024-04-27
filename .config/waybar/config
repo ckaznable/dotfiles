@@ -5,8 +5,8 @@
   "margin-bottom": 0,
 
   // Choose the order of the modules
-  "modules-left": ["clock", "tray", "hyprland/submap", "hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["mpris"],
+  "modules-left": ["clock", "tray", "wlr/taskbar"],
+  "modules-center": ["mpris", "hyprland/window"],
   "modules-right": ["custom/pacman", "pulseaudio", "network", "temperature", "battery"],
 
   // modules

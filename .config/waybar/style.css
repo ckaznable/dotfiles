@@ -231,3 +231,26 @@ window#waybar.empty #window {
     font-size: 13px;
 }
 
+#taskbar {
+  background: @surface0;
+  padding: 0px 4px 1px;
+}
+
+#taskbar button {
+  border-radius: 0px;
+  transition: all 0.3s;
+  padding: 1px 2px 0px 4px;
+  margin: 0px;
+  opacity: 0.3;
+  background: transparent;
+}
+
+#taskbar button.active {
+  background: transparent;
+  opacity: 1;
+}
+
+#taskbar button:hover {
+  background: @surface3;
+  opacity: 0.8;
+}

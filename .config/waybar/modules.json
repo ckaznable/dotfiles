@@ -18,7 +18,7 @@
     "format": "  {}"
   },
   "hyprland/window": {
-    "max-length": 25,
+    "max-length": 45,
     "rewrite": {
       "(.*)\/(.*): (.*) — Mozilla Firefox": " $1/$2",
       "(.*) - YouTube — Mozilla Firefox": "  $1",
@@ -115,5 +115,13 @@
     },
     "exec-if": "which waybar-updates",
     "exec": "waybar-updates --interval=3600"
-  }
+  },
+  "wlr/taskbar": {
+    "icon-theme": "Tela-circle-black",
+    "format": "{icon} ",
+    "icon-size": 16,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+  },
 }
