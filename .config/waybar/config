@@ -1,17 +1,35 @@
-{
-  "layer": "top", // Waybar at top layer
-  "height": 30, // Waybar height (to be removed for auto height)
-  "spacing": 0, // Gaps between modules (4px),
-  "margin-bottom": 0,
+[
+  {
+    "layer": "top", // Waybar at top layer
+    "height": 30, // Waybar height (to be removed for auto height)
+    "spacing": 0, // Gaps between modules (4px),
+    "margin-bottom": 0,
 
-  // Choose the order of the modules
-  "modules-left": ["clock", "tray", "wlr/taskbar"],
-  "modules-center": ["mpris", "hyprland/window"],
-  "modules-right": ["custom/pacman", "pulseaudio", "network", "temperature", "battery"],
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces", "mpris"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["custom/pacman", "pulseaudio", "network", "temperature", "battery"],
 
-  // modules
-  "include": [
-    "~/.config/waybar/modules.json"
-  ]
-}
+    // modules
+    "include": [
+      "~/.config/waybar/modules.json"
+    ]
+  },
+  {
+    "layer": "top", // Waybar at top layer
+    "position": "bottom",
+    "height": 30, // Waybar height (to be removed for auto height)
+    "spacing": 0, // Gaps between modules (4px),
+    "margin-bottom": 0,
 
+    // Choose the order of the modules
+    "modules-left": ["wlr/taskbar"],
+    "modules-center": [],
+    "modules-right": ["tray", "clock",],
+
+    // modules
+    "include": [
+      "~/.config/waybar/modules.json"
+    ]
+  }
+]
