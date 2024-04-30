@@ -1,5 +1,15 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.coding.codeium",
+    "lazyvim.plugins.extras.editor.navic",
+    "lazyvim.plugins.extras.editor.trouble-v3",
+    "lazyvim.plugins.extras.lang.clangd",
+    "lazyvim.plugins.extras.lang.go",
+    "lazyvim.plugins.extras.lang.haskell",
+    "lazyvim.plugins.extras.lang.json",
+    "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.rust",
+    "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.util.project"
   ],
   "news": {
