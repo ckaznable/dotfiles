@@ -105,7 +105,7 @@
     },
     "status-icons": {
       "paused": "⏸"
-    },
+    }
   },
   "custom/pacman": {
     "format": "{icon} {}",
@@ -126,6 +126,6 @@
     "on-click-middle": "close",
     "app_ids-mapping": {
       "firefox-beta-bin": "firefox-beta"
-    },
-  },
+    }
+  }
 }
