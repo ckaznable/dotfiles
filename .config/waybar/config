@@ -6,7 +6,7 @@
     "margin-bottom": 0,
 
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "mpris"],
+    "modules-left": ["hyprland/workspaces", "hyprland/submap", "mpris"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["custom/pacman", "pulseaudio", "network", "temperature", "battery"],
 
