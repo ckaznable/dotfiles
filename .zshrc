@@ -117,8 +117,10 @@ alias icat="kitten icat"
 alias logout="hyprctl dispatch exit"
 alias ncmpcpp="ncmpcpp -b ~/dotfiles/.config/ncmpcpp/bindings"
 alias nf="neofetch --kitty --source ~/Documents/ArchLinuxIcon_nf.png"
+alias unzipjp="unzip -O shift-jis"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:$HOME/opt/zig"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
