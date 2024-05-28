@@ -18,7 +18,7 @@
   "dir-telescope.nvim": { "branch": "main", "commit": "1f3a041f870d1edf9cc64635e79f4b829e755978" },
   "dressing.nvim": { "branch": "master", "commit": "3c38ac861e1b8d4077ff46a779cde17330b29f3a" },
   "flash.nvim": { "branch": "main", "commit": "11a2e667d19d8f48c93c6ed2e2e525ac6b1b79be" },
-  "friendly-snippets": { "branch": "main", "commit": "dd2fd1281d4b22e7b4a5bfafa3e142d958e251f2" },
+  "friendly-snippets": { "branch": "main", "commit": "4b442e5528a53c02bcb916ab1da72cd362171e43" },
   "haskell-snippets.nvim": { "branch": "master", "commit": "46462fe142521bd5719412dc9d740c2e54a9186e" },
   "haskell-tools.nvim": { "branch": "master", "commit": "35ac2d964b004d0d0e0cc9bab039b70be36ca0f7" },
   "headlines.nvim": { "branch": "master", "commit": "618ef1b2502c565c82254ef7d5b04402194d9ce3" },
