@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias ll="eza -al --icons"
 alias l="eza --icons"
 alias llg="eza -al --icons --git-ignore"
@@ -120,6 +121,7 @@ alias nf="neofetch --kitty --source ~/Documents/ArchLinuxIcon_nf.png"
 alias unzipjp="unzip -O shift-jis"
 alias open="xdg-open"
 
+export PATH="$HOME/dotfiles/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$HOME/opt/zig"
 
