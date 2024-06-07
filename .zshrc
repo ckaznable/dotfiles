@@ -120,6 +120,7 @@ alias ncmpcpp="ncmpcpp -b ~/dotfiles/.config/ncmpcpp/bindings"
 alias nf="neofetch --kitty --source ~/Documents/ArchLinuxIcon_nf.png"
 alias unzipjp="unzip -O shift-jis"
 alias open="xdg-open"
+alias cdf="cd \$(echo \$(fzf) | xargs dirname)"
 
 export PATH="$HOME/dotfiles/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
