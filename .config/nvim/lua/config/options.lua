@@ -3,4 +3,15 @@
 -- Add any additional options here
 
 vim.g.autoformat = false
-vim.opt.relativenumber = true
+
+vim.g.lazyvim_picker = "fzf"
+
+local file_pattern = {
+  ".git",
+  "lua",
+  ".gitignore",
+  "package.json",
+  "go.mod",
+  "cargo.toml",
+}
+vim.g.root_spec = { "lsp", file_pattern, "cwd" }

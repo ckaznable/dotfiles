@@ -1,9 +1,4 @@
 return {
-  {'kevinhwang91/nvim-bqf', ft = 'qf'},
-  {'junegunn/fzf', run = function()
-      vim.fn['fzf#install']()
-    end
-  },
   {
 		"NachoNievaG/atac.nvim",
 		dependencies = { "akinsho/toggleterm.nvim" },
@@ -13,4 +8,5 @@ return {
 			})
 		end,
 	},
+  {"nvim-tree/nvim-web-devicons"},
 }
