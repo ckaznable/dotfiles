@@ -11,5 +11,6 @@ map("i", "kk", "<Esc>")
 -- map("n", "<leader>fa", "<cmd>Telescope dir find_files<CR>", { noremap = true, silent = true })
 
 map("n", "x", "\"_x", { noremap = true, silent = true })
+map("v", "p", "\"_dP", { noremap = true, silent = true })
 
 
