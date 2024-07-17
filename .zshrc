@@ -81,6 +81,7 @@ plugins=(
 	git
 	z
 	zsh-vi-mode
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
