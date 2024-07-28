@@ -132,6 +132,7 @@ export ANDROID_HOME="/data/Android/Sdk"
 export REPO_OS_OVERRIDE="linux"
 export ANDROID_EMULATOR_HOME="/data/Android/AVD"
 export NDK_HOME="/data/Android/Sdk/ndk/27.0.11902837"
+export ANDROID_NDK_HOME="/data/Android/Sdk/ndk/27.0.11902837"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
