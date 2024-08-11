@@ -21,11 +21,12 @@
   "hyprland/window": {
     "max-length": 45,
     "rewrite": {
+      "(.*) — Mozilla Firefox": "  $1",
       "(.*)\/(.*): (.*) — Mozilla Firefox": " $1/$2",
       "(.*) - YouTube — Mozilla Firefox": "  $1",
-      "(.*) — Mozilla Firefox": "   $1",
       "ckaznable@side-7:(.*)": "> [$1]",
-      "nvim (.*)": "  [$1]",
+      "nvim (.*)": "  [$1]",
+      "nvim .": "  Neovim",
       "paru -S (.*)": "  $1",
       "sudo pacman -S (.*)": "  $1",
       "sudo pacman -Syu": "  Symtem Upgrading...",
