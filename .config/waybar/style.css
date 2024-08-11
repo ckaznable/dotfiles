@@ -205,17 +205,17 @@ window#waybar.empty #window {
 
 #workspaces * {
     font-weight: bold;
+    color: #131315;
 }
 
 #workspaces button * {
     margin: 0;
     padding: 0 0.3rem;
-    color: white;
+    background-color: #FEE89D;
 }
 
 #workspaces button.active * {
     background-color: #FEDB64;
-    color: #131315;
 }
 
 #custom-power {
