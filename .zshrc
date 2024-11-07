@@ -127,4 +127,9 @@ export ANDROID_EMULATOR_HOME="/data/Android/AVD"
 export NDK_HOME="/data/Android/Sdk/ndk/27.0.11902837"
 export ANDROID_NDK_HOME="/data/Android/Sdk/ndk/27.0.11902837"
 
+# IME
+export GTK_IM_MODULE="fcitx"
+export QT_IM_MODULE="fcitx"
+export XMODIFIERS=@im="fcitx"
+
 eval "$(starship init zsh)"
