@@ -67,6 +67,11 @@
             "key": "󰝚 ",
             "keyColor": "33", 
         },
+        {
+            "type": "disk",
+            "key": "",
+            "keyColor": "33",
+        },
         "break",
         "colors",
         "break",
