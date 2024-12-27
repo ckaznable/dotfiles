@@ -6,7 +6,7 @@ return {
         ['<c-k>'] = { 'select_prev' },
         ['<c-j>'] = { 'select_next' },
         ['<Tab>'] = { 'select_and_accept', 'fallback' },
-        ['<CR>'] = { 'select', 'fallback' },
+        ['<CR>'] = { 'accept', 'fallback' },
       },
     },
   },
