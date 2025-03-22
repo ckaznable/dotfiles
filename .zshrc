@@ -132,4 +132,7 @@ export GTK_IM_MODULE="fcitx"
 export QT_IM_MODULE="fcitx"
 export XMODIFIERS=@im="fcitx"
 
+# XDG
+export XDG_DATA_DIRS=/usr/local/share:/usr/share
+
 eval "$(starship init zsh)"
