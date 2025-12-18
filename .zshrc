@@ -135,4 +135,6 @@ export XMODIFIERS=@im="fcitx"
 # XDG
 export XDG_DATA_DIRS=/usr/local/share:/usr/share
 
+export EDITOR=nvim
+
 eval "$(starship init zsh)"
