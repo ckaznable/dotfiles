@@ -3,19 +3,14 @@ return {
   {"nvim-tree/nvim-web-devicons"},
   {"ap/vim-css-color"},
   {
+    "vuki656/package-info.nvim",
+		dependencies = { "MunifTanjim/nui.nvim" },
+  },
+  {
       'tzachar/local-highlight.nvim',
       config = function()
         require('local-highlight').setup()
       end
-  },
-  {
-    "mg979/vim-visual-multi",
-    init = function()
-      vim.g.VM_maps = {
-        ["Find Under"] = "<C-c>",
-        ["Find Subword Under"] = "<C-c>",
-      }
-    end,
   },
   {
     "henriklovhaug/Preview.nvim",
