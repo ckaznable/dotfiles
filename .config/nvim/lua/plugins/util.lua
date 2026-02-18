@@ -9,15 +9,6 @@ return {
       end
   },
   {
-    "mg979/vim-visual-multi",
-    init = function()
-      vim.g.VM_maps = {
-        ["Find Under"] = "<C-c>",
-        ["Find Subword Under"] = "<C-c>",
-      }
-    end,
-  },
-  {
     "henriklovhaug/Preview.nvim",
     cmd = { "Preview" },
     config = function()
