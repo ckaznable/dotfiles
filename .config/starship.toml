@@ -164,3 +164,6 @@ symbol = " "
 
 [zig]
 symbol = " "
+
+[gcloud]
+disabled = true

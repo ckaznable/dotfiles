@@ -1,3 +1,10 @@
+# OPENSPEC:START
+# OpenSpec shell completions configuration
+fpath=("/home/ckaznable/.oh-my-zsh/custom/completions" $fpath)
+autoload -Uz compinit
+compinit
+# OPENSPEC:END
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -119,6 +126,7 @@ alias cdf="cd \$(echo \$(fzf) | xargs dirname)"
 export PATH="$HOME/dotfiles/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$HOME/opt/zig"
+export PATH="$HOME/.npm-global/bin:$PATH"
 
 # android
 export ANDROID_HOME="/data/Android/Sdk"
