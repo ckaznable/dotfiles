@@ -299,6 +299,8 @@ window-rule {
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     open-floating true
+    default-column-width { fixed 480; }
+    default-window-height { fixed 270; }
 }
 
 // Example: block out two password managers from screen capture.
@@ -366,6 +368,10 @@ binds {
     // but you need to manually put each argument in separate "" quotes.
     XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
     XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
+
+    // Mouse
+    MouseBack { spawn-sh "playerctl play-pause"; }
+    MouseForward { spawn-sh "playerctl next"; }
 
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
     // You can also move the mouse into the top-left hot corner,
@@ -596,5 +602,5 @@ binds {
     // Mod+Shift+N { power-off-monitors; }
 }
 
-include "output.kdl"
 include "dms/cursor.kdl"
+include "dms/outputs.kdl"

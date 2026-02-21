@@ -1,4 +1,5 @@
 return {
+  {"h-hg/fcitx.nvim"},
   {"wakatime/vim-wakatime"},
   {"nvim-tree/nvim-web-devicons"},
   {"ap/vim-css-color"},

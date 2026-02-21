@@ -124,7 +124,6 @@ alias open="xdg-open"
 alias cdf="cd \$(echo \$(fzf) | xargs dirname)"
 
 export PATH="$HOME/dotfiles/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$HOME/opt/zig"
 export PATH="$HOME/.npm-global/bin:$PATH"
 
@@ -142,6 +141,12 @@ export XMODIFIERS=@im="fcitx"
 
 # XDG
 export XDG_DATA_DIRS=/usr/local/share:/usr/share
+
+# game
+export PROTON_USE_NTSYNC=1
+export ENABLE_LAYER_MESA_ANTI_LAG=1
+export PROTON_FSR4_RDNA3_UPGRADE=1
+export PROTON_FSR4_UPGRADE=1
 
 export EDITOR=nvim
 
