@@ -124,6 +124,7 @@ alias open="xdg-open"
 alias cdf="cd \$(echo \$(fzf) | xargs dirname)"
 
 export PATH="$HOME/dotfiles/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/opt/zig"
 export PATH="$HOME/.npm-global/bin:$PATH"
 
@@ -149,5 +150,7 @@ export PROTON_FSR4_RDNA3_UPGRADE=1
 export PROTON_FSR4_UPGRADE=1
 
 export EDITOR=nvim
+
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 eval "$(starship init zsh)"
