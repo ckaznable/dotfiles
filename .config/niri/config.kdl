@@ -297,7 +297,7 @@ window-rule {
     // This app-id regular expression will work for both:
     // - host Firefox (app-id is "firefox")
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"firefox$"# title="^子母畫面$"
     open-floating true
     default-column-width { fixed 480; }
     default-window-height { fixed 270; }
@@ -604,3 +604,5 @@ binds {
 
 include "dms/cursor.kdl"
 include "dms/outputs.kdl"
+
+include "dms/windowrules.kdl"
