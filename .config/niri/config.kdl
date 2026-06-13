@@ -305,7 +305,7 @@ window-rule {
 
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
+window-rule {
     match app-id=r#"^org\.keepassxc\.KeePassXC$"#
     match app-id=r#"^org\.gnome\.World\.Secrets$"#
 
@@ -323,10 +323,10 @@ window-rule {
 }
 
 // steam notification
-/-window-rule {
+window-rule {
     match app-id=r#"steam"# title="^notificationtoasts_\\d+_desktop$" is-floating=true
     open-focused false
-    default-floating-position x=0 y=0 relative-to="bottom-right"
+    default-floating-position x=283 y=70 relative-to="bottom-right"
 }
 
 binds {
