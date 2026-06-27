@@ -324,7 +324,7 @@ window-rule {
 
 // steam notification
 window-rule {
-    match app-id=r#"steam"# title="^notificationtoasts_\\d+_desktop$" is-floating=true
+    match app-id="steam" title="^notificationtoasts" is-floating=true
     open-focused false
     default-floating-position x=283 y=70 relative-to="bottom-right"
 }
