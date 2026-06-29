@@ -153,6 +153,6 @@ export PROTON_FSR4_UPGRADE=1
 export EDITOR=nvim
 
 export QT_QPA_PLATFORMTHEME=qt6ct
-export QT_SWITCHER_USE_QT6CT "1"
+export QT_SWITCHER_USE_QT6CT=1
 
 eval "$(starship init zsh)"
